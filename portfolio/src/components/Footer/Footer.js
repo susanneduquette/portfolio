@@ -7,7 +7,7 @@ class Footer extends Component {
         return (
             <div>
                 <FooterContainer>
-                    <FooterText>Designed and coded by <strong>Susanne Duquette ©2020</strong></FooterText>
+                    <FooterText>Made with <span role="img" aria-label="yellow-heart">💛</span> by Susanne Duquette</FooterText>
                     <FooterFavicon src={favicon} alt="Susanne Duquette" />
                 </FooterContainer>
             </div>
